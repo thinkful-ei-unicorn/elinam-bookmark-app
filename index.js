@@ -1,7 +1,7 @@
 import $ from "./jquery";
 import * as api from "./api.js";
-import * as events from "./events";
-import * as store from "./store";
+import * as events from "./events.js";
+import * as store from "./store.js";
 import * as templates from "./templates";
 import "./styles.css";
 
