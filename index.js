@@ -1,4 +1,4 @@
-import * as $ from 'jquery';
+import * as $ from '../node_modules/jquery';
 import * as api from "./api.js";
 import * as events from "./events.js";
 import * as store from "./store.js";
