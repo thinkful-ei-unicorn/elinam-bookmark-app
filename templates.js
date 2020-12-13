@@ -1,4 +1,5 @@
 import * as store from "./store.js";
+import * as $ from '/jquery';
 
 const generateAddForm = function () {
   return `<div>
