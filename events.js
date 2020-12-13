@@ -6,6 +6,7 @@ import * as templates from "./templates.js";
 
 const handleNewButtonClick = function () {
   $("main").on("click", ".new", function () {
+    console.log("user clicked new button");
     store.STORE.adding = true;
     store.STORE.filtering = false;
     index.render();
