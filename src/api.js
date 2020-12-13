@@ -1,7 +1,7 @@
 // THIS MODULE ONLY CONTAINS FUNCTIONS THAT DEAL WITH API REQUESTS AND RESPONSES
 
-import * as index from "./index.js";
-import * as store from "./store.js";
+import index from "./index.js";
+import store from "./store.js";
 
 const BASE_URL = "https://thinkful-list-api.herokuapp.com/elina/bookmarks";
 

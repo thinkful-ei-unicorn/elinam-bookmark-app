@@ -1,5 +1,4 @@
-import * as store from "./store.js";
-
+import store from "./store";
 
 const generateAddForm = function () {
   return `<div>
