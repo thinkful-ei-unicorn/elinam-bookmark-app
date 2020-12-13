@@ -1,7 +1,7 @@
 import $ from "jquery";
-import api from "./api";
-import index from "./index";
-import store from "./store";
+import * as api from "./api";
+import * as index from "./index";
+import * as store from "./store";
 
 // THIS MODULE ONLY CONTAINS STORE VARIABLE AND FUNCTIONS THAT CHANGE THE STATE OF THE STORE
 let STORE = {
