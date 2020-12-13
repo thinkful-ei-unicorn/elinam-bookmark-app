@@ -1,9 +1,9 @@
 // THIS MODULE ONLY CONTAINS EVENT HANDLERS
 import $ from "jquery";
-import * as api from "./api";
-import * as index from "./index";
-import * as store from "./store";
-import * as templates from "./templates";
+import * as api from "./api.js";
+import * as index from "./index.js";
+import * as store from "./store.js";
+import * as templates from "./templates.js";
 
 const handleNewButtonClick = function () {
   $("main").on("click", ".new", function () {
