@@ -1,8 +1,8 @@
 import $ from "./jquery";
 import * as api from "./api.js";
-import events from "./events";
-import store from "./store";
-import templates from "./templates";
+import * as events from "./events";
+import * as store from "./store";
+import * as templates from "./templates";
 import "./styles.css";
 
 // RENDER FUNCTION
