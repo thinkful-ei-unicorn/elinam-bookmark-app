@@ -38,8 +38,8 @@ function main() {
   events.eventHandlers();
 }
 
+$(main);
+
 export default {
   render,
 };
-
-$(main);

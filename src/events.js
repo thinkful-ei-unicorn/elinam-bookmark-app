@@ -1,4 +1,5 @@
 // THIS MODULE ONLY CONTAINS EVENT HANDLERS
+import $ from "jquery";
 import api from "./api.js";
 import index from "./index.js";
 import store from "./store.js";

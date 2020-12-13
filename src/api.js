@@ -1,5 +1,5 @@
 // THIS MODULE ONLY CONTAINS FUNCTIONS THAT DEAL WITH API REQUESTS AND RESPONSES
-
+import $ from "jquery";
 import index from "./index.js";
 import store from "./store.js";
 
