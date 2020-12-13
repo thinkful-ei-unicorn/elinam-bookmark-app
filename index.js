@@ -1,4 +1,4 @@
-import $ from "jquery";
+import $ from "./jquery";
 import api from "./api";
 import events from "./events";
 import store from "./store";
