@@ -2,7 +2,7 @@ import $ from "./jquery";
 import * as api from "./api.js";
 import * as events from "./events.js";
 import * as store from "./store.js";
-import * as templates from "./templates";
+import * as templates from "./templates.js";
 import "./styles.css";
 
 // RENDER FUNCTION
