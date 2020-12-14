@@ -81,6 +81,7 @@ const handleCreateItemClick = function () {
     store.STORE.adding = false;
     store.STORE.filtering = false;
     store.addNewBookmarkStore();
+    index.render();
   });
 };
 
