@@ -37,7 +37,6 @@ const addNewBookmarkStore = function () {
       data.expanded = false;
       data.filtered = false;
       store.STORE.bookmarks.push(data);
-      index.render();
     });
   }
 };
