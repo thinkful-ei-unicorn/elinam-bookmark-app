@@ -1,7 +1,7 @@
 import store from "./store";
 
 const generateAddForm = function () {
-  return `<div>
+  return `<section><div>
     <h1>myMarks</h1>
   </div><div id="form" class="form">
     <h3>Add a new bookmark</h3>
@@ -48,6 +48,7 @@ const generateAddForm = function () {
   </div>
     </form>
   </div>
+  </section>
   `;
 };
 
@@ -59,7 +60,7 @@ const generateFilterDropdown = function () {
       return generateNewBookmarkExpanded(element);
     }
   });
-  return `<div>
+  return `<section><div>
     <h1>myMarks</h1>
   </div><div class="top-button button">
     <button id="new" class="new">
@@ -85,7 +86,7 @@ const generateFilterDropdown = function () {
   </div>
   <div class="bottom-button">
     <button id="clear-filter" class="clear-filter">Clear</button>
-  </div>`;
+  </div></section>`;
 };
 
 const generateFilterList = function () {
@@ -101,7 +102,7 @@ const generateFilterList = function () {
     }
   });
 
-  return `<div>
+  return `<section><div>
     <h1>myMarks</h1>
   </div><div class="top-button button">
     <button id="new" class="new">
@@ -127,7 +128,7 @@ const generateFilterList = function () {
   </div>
   <div class="bottom-button">
     <button id="clear-filter" class="clear-filter">Clear</button>
-  </div>`;
+  </div></section>`;
 };
 
 const generateNewBookmark = function (object) {
@@ -168,7 +169,7 @@ const generateBookmarksString = function () {
       return generateNewBookmarkExpanded(element);
     }
   });
-  return `<div><h1>myMarks</h1></div><div class="top-button button">
+  return `<section><div><h1>myMarks</h1></div><div class="top-button button">
     <button id="new" class="new">
       <i class="fas fa-plus fa-xs"></i> New
     </button>
@@ -178,7 +179,7 @@ const generateBookmarksString = function () {
   </div>
   <div id="bookmarks" class="bookmarks">
   ${bookmarks.join("")}
-  </div>`;
+  </div></section>`;
 };
 
 const generateStars = function (object) {
