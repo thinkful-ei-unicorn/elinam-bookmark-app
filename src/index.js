@@ -10,17 +10,17 @@ const render = function () {
   if (store.STORE.adding === true) {
     let html = "";
     html = templates.generateAddForm();
-    $("section").html(html);
+    $("main").html(html);
   }
   if (store.STORE.filtering === true && store.STORE.filter > 0) {
     let html = "";
     html = templates.generateFilterList();
-    $("section").html(html);
+    $("main").html(html);
   }
   if (store.STORE.filtering === true && store.STORE.filter <= 0) {
     let html = "";
     html = templates.generateFilterDropdown();
-    $("section").html(html);
+    $("main").html(html);
   }
   if (
     store.STORE.adding === false &&
@@ -29,7 +29,7 @@ const render = function () {
   ) {
     let html = "";
     html = templates.generateBookmarksString();
-    $("section").html(html);
+    $("main").html(html);
   }
 };
 
