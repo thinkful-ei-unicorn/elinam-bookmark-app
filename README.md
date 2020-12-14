@@ -1,7 +1,7 @@
 # API Powered Bookmark Application
 
 ## GitHub Live Pages
-https://thinkful-ei-unicorn.github.io/elina-bookmark-app/
+https://thinkful-ei-unicorn.github.io/elinam-bookmark-app/
 
 ## User Stories
 
